@@ -1,8 +1,9 @@
 body {margin-top:50px;}
-h1, h4 {font-family: Proxima, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 40px; line-height: 57px}
+h1, h4 {font-family: Proxima, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 36px; line-height: 57px}
 
 h4 {font-size: 25px; margin-top: -30px;}
-p {font-size: 20px; font-weight: lighter}
+p {font-size: 20px; font-weight: lighter; line-height: 1.3em}
+p.clientname strong {font-size: 25px;}
 p.needhelp {margin-bottom: 0px; font-size: 19px}
 
 /* div.application-header {margin-top: 50px;} */
