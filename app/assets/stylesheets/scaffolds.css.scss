@@ -1,5 +1,11 @@
+body {margin-top:50px;}
 h1, h4 {font-family: Proxima, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 40px; line-height: 57px}
 
 h4 {font-size: 25px; margin-top: -30px;}
+p {font-size: 20px; font-weight: lighter}
+p.needhelp {margin-bottom: 0px; font-size: 19px}
 
-div.application-header {margin-top: 50px;}
+/* div.application-header {margin-top: 50px;} */
+div#contactnumber {text-align:right; margin-top: 30px;}
+div#footer {position:fixed; bottom: 5px; left: 5px; background-color: white;}
+div#footer p {padding:0;margin:0;color:#ccc; font-size: 12px}

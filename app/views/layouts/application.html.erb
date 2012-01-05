@@ -26,22 +26,20 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="twelve columns">
-				<div class="application-header">
-					<h1><a href="index.php">Hillcrest Animal Hospital</a></h1>
+			<div class="nine columns">
+					<h1><a href="/">Hillcrest Animal Hospital</a></h1>
 					<h4 class="subheader">Emergency &amp; Out of Hours Service</h4>
-				</div>
-				<hr />
 			</div>
+			<div class="three columns" id="contactnumber"><p class="needhelp">Need help? Call us on</p><h3>01257 262448</h3></div>
+			<hr />
 		</div>
 	</div>
-		
-	<div class="container">
-		<div class="row">
-			<div class="twelve columns">
-    			<%= yield %>
-			</div>
-		</div>
+	
+	<%= yield %>
+	
+	<div id="footer">
+		<p>&copy; Hillcrest Animal Hospital 2011 - All Rights Reserved</p>
 	</div>
+	
 <body>
 </html>
