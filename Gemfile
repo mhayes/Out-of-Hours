@@ -7,6 +7,10 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
+group :production do
+  gem 'pg'
+end
+
 gem 'json'
 
 # Gems used only for assets and not required
